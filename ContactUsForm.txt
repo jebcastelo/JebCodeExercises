@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<form action="ContactUs.html" method="POST">
+	<table style="height: 159px;" width="420">
+	<tbody>
+		<tr>
+		<td>First Name</td>
+		<td><input id="fstname" name="fstname" size="30" type="text" value="" /></td>
+		</tr>
+		<tr>
+		<td>Last Name</td>
+		<td><input id="lstname" name="lstname" size="30" type="text" value="" /></td>
+		</tr>
+		<tr>
+		<td>Email:</td>
+		<td><input id="email" name="email" size="30" type="text" value="" /></td>
+		</tr>
+		<tr>
+		<td>Type of License:</td>
+		<td><input name="answer" type="radio" value="Business" />Business <input name="answer" type="radio" value="Personal" />Personal
+		</td>
+		</tr>
+		<tr>
+		<td>Reason:</td>
+		<td>
+			<select style="width: 210px;" name="Reason">
+			<option value="Select">Select a Reason</option>
+			<option value="Software">Software Support</option>
+			<option value="Hardware">Hardware Support</option>
+			<option value="Info">Information Request</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+		<td>Additional Information:</td>
+		<td><textarea style="width: 210px; height: 50px;" cols="1" name="Additional Information" rows="1"></textarea></td>
+		</tr>
+		<tr>
+		<td>
+		</td>
+		<td>
+		<input type="checkbox" name="choice1" value="Agree" /> I have read the terms of service
+		</td>
+		</tr>
+		<tr>
+		<td></td>
+		<td style="text-align: center;"><input type="Button" value="Send Request" /></td>
+		</tr>
+	</tbody>
+</table>
+</form>
+</html>
