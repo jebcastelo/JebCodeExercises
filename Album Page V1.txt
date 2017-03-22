@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Title of Album</title>
+</head>
+<body>
+	<div>
+        <h1>Title of Album</h1>
+		<h2>Band Name</h2>
+		<h3>Release Date</h3>
+        <p>
+			A paragraph of text used as a description of the album.
+        </p>
+	</div>
+	<div>
+        <h2>Band Members</h2>
+		<ul style="list-style-type: square;">
+			<li>Person One - Lead Vocals</li>
+			<li>Person Two - Guitar</li>
+			<li>Person Three - Acoustic Guitar, Backup Vocals</li>
+			<li>Person Four - Drums</li>
+			<li>Person Five Bass, Backup Vocals</li>
+		</ul>
+	</div>
+</body>
+</html>
